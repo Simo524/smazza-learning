@@ -9,10 +9,11 @@
     <artifactId>array</artifactId>
     <version>1.0</version>
 
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <parent>
+        <groupId>smazza.learning</groupId>
+        <artifactId>dsa</artifactId>
+        <version>1.0</version>
+        <relativePath>..</relativePath>
+    </parent>
 
 </project>
